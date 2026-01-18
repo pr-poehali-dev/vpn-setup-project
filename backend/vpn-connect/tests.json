@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Connect to VPN server",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "action": "connect",
+        "userId": 1,
+        "serverId": 1,
+        "protocol": "OpenVPN",
+        "encryption": "AES-256-GCM"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "connectionId": "number"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "vpn-servers": "https://functions.poehali.dev/5452d5f1-dc04-402a-94ab-7d1ea4a1b7bf",
+  "vpn-logs": "https://functions.poehali.dev/62efa9ea-0ef3-459d-9a27-5c00adf0bce3",
+  "vpn-auth": "https://functions.poehali.dev/98608356-bfe7-42ed-ab73-4e2d7571656a",
+  "vpn-connect": "https://functions.poehali.dev/a97ccb44-affd-4fc0-bf7e-c9b2cfcc8d0c"
+}

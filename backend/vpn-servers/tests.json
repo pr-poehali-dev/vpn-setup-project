@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "name": "Get all active VPN servers",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "servers": "array"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "name": "Get user connection logs",
+      "method": "GET",
+      "path": "/?userId=1",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "logs": "array"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
